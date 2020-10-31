@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav-bar{
+    float: right;
+}
+
+#nav-bar li{
+    display: inline-block;
+    padding: 0px;
+}
+
+#nav-bar #sign-in{
+    background: #4007ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav-links a:hover{
+    text-decoration: underline;
+}
+
+#sign-in:hover{
+    box-shadow: 1px 1px 5px #999;
+}
+
+#sign-in{
+    color: white;
+}
+
+.logo #google{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+
+}
+
+.form {
+    text-align: center;
+}
+
+#text-search{
+    width: 430px;
+    height: 24px;
+    padding: 25px 10px;
+}
+
+.form #text-search {
+    padding: 3px 8px;
+}
+
+.buttons{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 250px;
+    
+}
+
+footer{
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+footer ul li{
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+
+}
+
+footer ul{
+    float: left;
+    padding: 1px;
+}
+
+footer ul a:hover{
+    text-decoration: underline;
+}
